@@ -16,7 +16,10 @@ def random_circle(number_of_circles):
 
 # A function that changes the turtle's color to a random color
 def random_color():
-  # TODO: write this function 
+	'''
+	returns a random hex value
+	'''
+	return hex(random.int(0,16777215))
 
 # A function that takes a number and sets the turtle to a random location from x to -x and y to -y
 def random_location():
