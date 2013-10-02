@@ -19,7 +19,7 @@ def random_color():
 	'''
 	returns a random hex value
 	'''
-	return hex(random.int(0,16777215))
+	return hex(random.randint(0,16777215))
 
 # A function that takes a number and sets the turtle to a random location from x to -x and y to -y
 def random_location():
