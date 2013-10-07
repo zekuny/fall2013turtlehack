@@ -19,10 +19,7 @@ def random_color():
 	'''
 	returns a random hex value
 	'''
-	color_value = str(hex(random.randint(0000000,16777215)))
-	color_value = color_value[2:]
-	if len(color_value) <6:
-		color_value = (6-len(color_value))*'0' + color_value
+	color_value = format(random.randint(0,16777215),'06x')
 	return "#" +color_value
 
 # A function that takes a number and sets the turtle to a random location from x to -x and y to -y
