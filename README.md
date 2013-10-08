@@ -14,6 +14,7 @@ Testing colored_circle()
 Testing colored_square()
 -- problem with colored_square
 Testing random_circle()
+-- problem with random_circle()
 Testing random_location()
 -- problem with random_location()
 End of tests
