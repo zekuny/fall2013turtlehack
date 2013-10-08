@@ -36,9 +36,10 @@ n=random.randint(3,12)
 
 # create the Turle instance
 graphic = turtle.Turtle()
+# Call the polygon code
+n_sided_polygon(graphic, n, turtlehack.random_color(), random.randint(4,8))
 
-turtlehack.n_sided_polygon(graphic, n, turtlehack.random_color(), random.randint(4,8))
-
-ignore = input("hit any key to continue:")
-graphic.done()
+# Close and exit
+ignore = raw_input("hit any key to continue:")
+#graphic.done()
 
