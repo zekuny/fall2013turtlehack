@@ -46,11 +46,14 @@ def n_sided_polygon(turtle, n, color="#FFFFFF", line_thickness=1, line_length=80
 	# Draw each line segment and turn
 
   	for i in range(0,n):
-		turtle.color(color)
-    		turtle.pendown()
-    		turtle.forward(line_length)
-   		turtle.penup()
-    		turtle.right(turn_angle)
+	  turtle.color(color)
+    	  turtle.pendown()
+    	  turtle.forward(line_length)
+   	  turtle.penup()
+    	  turtle.left(turn_angle)
+
+	# return the turtle to its original starting location
+	turtle.left(turn_angle)
 
 	return 0
 
