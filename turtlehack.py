@@ -15,7 +15,6 @@ def random_circle(turtle, number_of_circles, max_size = 100):
 	for i in range(number_of_circles):
 	  turtle.circle(random.randint(0,max_size + 1))
 
-
 # A function that changes the turtle's color to a random color
 def random_color():
 	'''
@@ -25,5 +24,7 @@ def random_color():
 	return "#" +color_value
 
 # A function that takes a turtle and a pair of numbers and sets the turtle to a random location from x to -x and y to -y
-#def random_location(turtle, x, y):
-	# TODO: write this function 
+def random_location(turtle, x, y):
+  random_x = random.randint(-x, x)
+  random_y = random.randint(-y, y)
+  turtle.setpos(random_x, random_y)
