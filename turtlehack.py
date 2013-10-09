@@ -59,4 +59,3 @@ def n_sided_polygon(turtle, n, color="#FFFFFF", line_thickness=1, line_length=80
 
 	return 0
 
->>>>>>> 4b90a5cba8c3d20c4a78782c1fd455cdb02a6091
