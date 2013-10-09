@@ -57,6 +57,12 @@ try:
 except:  
   print "-- problem with random_location()"
 
+# n_sided_polygon() test
+try:
+  print "Testing n_sided_polygon()"
+  turtlehack.n_sided_polygon(test_turtle, 8, "#99badd", 4)
+except:
+  print "-- problem with n sided polygon()"
 
 ####################
 print "End of tests"
