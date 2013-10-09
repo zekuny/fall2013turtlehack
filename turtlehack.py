@@ -2,8 +2,10 @@ import turtle
 import random
 
 # A function that takes a turtle, a radius, a color, and an optional thickness and draws a circle
-#def colored_circle(turtle, radius, color, thickness = 1):
-	# TODO: write this function 
+def colored_circle(turtle, radius, color, thickness = 1):
+	turtle.width(thickness)
+	turtle.color(color)
+	turtle.circle(radius)
 
 
 # A function that takes a side length and a color and makes a square. 
