@@ -53,7 +53,9 @@ reset(test_turtle)
 try:
   print "Testing random_location()"
   test_turtle.color('purple')
+  test_turtle.penup()
   turtlehack.random_location(test_turtle, 50, 50)
+  test_turtle.write("rando")
 except:  
   print "-- problem with random_location()"
 
