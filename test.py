@@ -94,7 +94,9 @@ move(test_turtle,220,0)
 try:
   print_testing("random_location()")
   test_turtle.color('purple')
+  test_turtle.penup()
   turtlehack.random_location(test_turtle, 50, 50)
+  test_turtle.write("rando")
 except:  
   draw_error("random_location()")
 
