@@ -21,7 +21,8 @@ def n_sided_polygon(turtle, n, color="#FFFFFF", line_thickness=1):
 	# Draw each line segment and turn
 
   	while (i <= n):
-		turtle.color(color)
+#		turtle.color(color)
+		turtle.color(turtlehack.random_color())
     		turtle.pendown()
     		turtle.forward(line_length)
    		turtle.penup()
@@ -32,7 +33,7 @@ def n_sided_polygon(turtle, n, color="#FFFFFF", line_thickness=1):
  
 ## MAIN ##
 # set initial parameters
-n=random.randint(3,12)
+n=random.randint(3,30)
 
 # create the Turle instance
 graphic = turtle.Turtle()
