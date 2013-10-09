@@ -90,8 +90,8 @@ except:
 
 # n_sided_polygon() test
 try:
-  print "Testing n_sided_polygon()"
-  turtlehack.n_sided_polygon(test_turtle, 8, "#99badd", 4)
+  print_testing("n_sided_polygon()")
+  turtlehack.n_sided_polygon(test_turtle, 8, "#99badd", 4, 75)
 except:
   print "-- problem with n sided polygon()"
 
