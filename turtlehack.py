@@ -14,7 +14,8 @@ def colored_square(turtle, side_length, color):
   for i in range(4):
     turtle.forward(side_length)
     turtle.left(90)
-
+  turtle.left(90)
+  
 # A function that takes a number and makes that many random sized circles
 def random_circle(turtle, number_of_circles, max_size = 100):
 	for i in range(number_of_circles):
